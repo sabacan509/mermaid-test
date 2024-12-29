@@ -17,10 +17,16 @@ jobs:
           echo "aaa"
           sleep 3
           echo "bbb"
+      - name: step2
+        run: |
           sleep 3
           echo "ccc"
           sleep 3
           echo "ddd"
+  check2:
+    steps:
+      - name: step3
+        run: |
           sleep 3
           echo "eee"
           sleep 3
