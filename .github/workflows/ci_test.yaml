@@ -4,6 +4,7 @@ on:
       - main
       - 'feat/**'
   pull_request:
+    types: [opened, synchronize]
 jobs:
   check:
     runs-on: ubuntu-latest
