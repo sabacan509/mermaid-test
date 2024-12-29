@@ -1,5 +1,7 @@
 Here is a simple flow chart:
 
+test2
+
 ```mermaid
 gitGraph
    commit
