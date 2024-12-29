@@ -4,7 +4,10 @@ on:
       - main
       - 'feat/**'
   pull_request:
-    types: [opened, synchronize]
+    types:
+      - opened
+      # - synchronize
+      # - reopened
 concurrency: 
   group: ${{ github.ref }}
   cancel-in-progress: true
