@@ -12,6 +12,12 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    steps:
+      - name: step1
+        run: |
+          echo "github.ref: ${{ github.ref }}"
   check:
     runs-on: ubuntu-latest
     steps:
