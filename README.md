@@ -2,7 +2,7 @@ Here is a simple flow chart:
 
 test1
 test2-3
-test3
+test3-4
 
 ```mermaid
 gitGraph
