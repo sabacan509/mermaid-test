@@ -1,8 +1,8 @@
 on:
-  push:
-    branches:
-      - main
-      - 'feat/**'
+  # push:
+  #   branches:
+  #     - main
+  #     - 'feat/**'
   pull_request:
     types:
       - opened
